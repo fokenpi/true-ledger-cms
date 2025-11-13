@@ -1,9 +1,7 @@
 {
   "build": {
-    "beforeDevCommand": "",
-    "beforeBuildCommand": "",
-    "devPath": "http://localhost:1420",
-    "distDir": "../dist"
+    "devPath": "../src",
+    "distDir": "../src"
   },
   "package": {
     "productName": "TrueLedger",
@@ -14,15 +12,10 @@
       "active": true,
       "identifier": "com.trueledger.app"
     },
-    "security": {
-      "csp": null
-    },
-    "windows": [
-      {
-        "title": "TrueLedger",
-        "width": 800,
-        "height": 600
-      }
-    ]
+    "windows": [{
+      "title": "TrueLedger",
+      "width": 800,
+      "height": 600
+    }]
   }
 }

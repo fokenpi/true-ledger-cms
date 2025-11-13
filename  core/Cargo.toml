@@ -1,0 +1,27 @@
+[package]
+name = "true-ledger-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uuid = { version = "1.10", features = ["v4", "serde"] }
+rust_decimal = { version = "1.35", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+automerge = "0.20"         # CRDT sync
+libp2p = { version = "0.53", features = ["tcp", "dns", "websocket", "noise", "yamux", "mplex"] }
+tokio = { version = "1.0", features = ["full"] }
+[dependencies]
+rusqlite = { version = "0.31", features = ["bundled"] }
+serde_json = "1.0"
+[dependencies]
+automerge = "0.20"
+[dependencies]
+libp2p = { version = "0.53", features = ["tcp", "dns", "noise", "yamux"] }
+tokio = { version = "1.0", features = ["full"] }
+[dependencies]
+automerge = "0.20"
+serde_json = "1.0"
+thiserror = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.10", features = ["v4", "serde"] }
+rust_decimal = { version = "1.35", features = ["serde"] }
