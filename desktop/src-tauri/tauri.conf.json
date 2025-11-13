@@ -1,0 +1,28 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "TrueLedger",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "identifier": "com.trueledger.app"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "TrueLedger",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}

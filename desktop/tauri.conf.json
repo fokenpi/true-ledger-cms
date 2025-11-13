@@ -1,0 +1,21 @@
+{
+  "build": {
+    "devPath": "../frontend",
+    "distDir": "../frontend"
+  },
+  "package": {
+    "productName": "TrueLedger",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "identifier": "com.trueledger.app"
+    },
+    "windows": [{
+      "title": "TrueLedger",
+      "width": 800,
+      "height": 600
+    }]
+  }
+}
